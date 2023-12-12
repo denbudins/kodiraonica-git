@@ -68,4 +68,5 @@ document.getElementById("next").addEventListener("click", ()=>{
     }
     document.getElementById("mount").innerHTML = monthName[month];
     drawCalendar();
+    console.log("Test!")
 });
